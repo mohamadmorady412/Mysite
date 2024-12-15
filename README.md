@@ -61,7 +61,7 @@ default and development settings
 ```Shell
 python manage.py runserver 
 #or
-python manage.py runserver 0.0.0.0:8000 --settings=mysite.setting.dev
+python manage.py runserver --settings=mysite.setting.dev
 ```
 production settings
 ```Shell
